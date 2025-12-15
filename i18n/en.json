@@ -1,0 +1,70 @@
+{
+  "app_title": "ChromaFlux",
+
+  "select_folder": "Select folder...",
+  "select_files": "Select file(s)...",
+  "choose_color": "Pick color",
+  "select_all": "Select all",
+  "sync_min_max": "Sync Min / Max",
+  "apply_changes": "Apply changes",
+  "ready": "Ready.",
+
+  "loading_progress": "Loading %p%",
+  "files_loaded": "{count} files loaded",
+
+  "dropzone_text": "Drag assets or folders here\nOr use the buttons above",
+
+  "search_placeholder": "Search by Asset or Module...",
+  "log_placeholder": "System log...",
+
+  "settings": "Settings",
+
+  "tab_min": "MIN",
+  "tab_max": "MAX",
+
+  "log_app_started": "Application started",
+  "log_language_changed": "Language changed to: {lang}",
+  "log_loading_folder": "Loading folder: {path}",
+  "log_loading_files": "Loading {count} file(s)",
+  "log_drag_drop_received": "Drag & Drop received ({count} item(s))",
+  "log_processing_assets": "Processing {count} uasset(s)",
+  "log_assets_loaded": "Assets loaded successfully",
+  "log_color_selected": "Color selected",
+  "log_color_applied_click": "Color applied by click",
+  "log_applying_changes": "Applying changes...",
+  "log_changes_applied": "Changes applied successfully",
+  "log_cannot_delete_file": "Could not delete file: {path}",
+  "log_theme_changed_to_light": "Theme changed to light.",
+  "log_theme_changed_to_dark": "Theme changed to dark",
+  "dropzone_default": "Drag assets or folders here",
+  "dropzone_release": "Drop to load",
+  "dropzone_invalid": "Invalid file",
+  "log_select_row_warning": "Select a MIN/MAX row or enable Select all.",
+  "dialog_select_folder": "Select folder",
+  "dialog_select_uasset": "Select uasset",
+  "choose_language": "Choose language",
+  "language_spanish": "Spanish",
+  "language_english": "English",
+  "file_filter_uasset": "Unreal Assets (*.uasset)",
+  "files_loaded_count": "{count} files loaded",
+  "col_type": "Tipo",
+  "col_color": "Color",
+  "col_r": "R",
+  "col_g": "G",
+  "col_b": "B",
+  "color_picker_title": "Color Picker",
+  "colorpicker_ok": "OK",
+  "colorpicker_cancel": "Cancel",
+  "colorpicker_copy": "Copy HEX",
+  "colorpicker_hex": "HEX",
+  "colorpicker_rgb": "RGB",
+  "colorpicker_hsv": "HSV",
+  "colorpicker_hsl": "HSL",
+  "colorpicker_cmyk": "CMYK",
+  "colorpicker_presets": "Presets",
+  "colorpicker_history": "History"
+
+
+
+
+}

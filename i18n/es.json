@@ -1,0 +1,71 @@
+{
+  "app_title": "ChromaFlux",
+
+  "select_folder": "Seleccionar carpeta...",
+  "select_files": "Seleccionar archivo(s)...",
+  "choose_color": "Elegir color",
+  "select_all": "Seleccionar todo",
+  "sync_min_max": "Sincronizar Min / Max",
+  "apply_changes": "Aplicar cambios",
+  "ready": "Listo.",
+
+  "loading_progress": "Cargando %p%",
+  "files_loaded": "{count} archivos cargados",
+
+  "dropzone_text": "Arrastra assets o carpetas aquí\nO usa los botones de arriba",
+
+  "search_placeholder": "Buscar por Asset o Módulo...",
+  "log_placeholder": "Registro del sistema...",
+
+  "settings": "Configuración",
+
+  "tab_min": "MIN",
+  "tab_max": "MAX",
+
+  "log_app_started": "Aplicación iniciada",
+  "log_language_changed": "Idioma cambiado a: {lang}",
+  "log_loading_folder": "Cargando carpeta: {path}",
+  "log_loading_files": "Cargando {count} archivo(s)",
+  "log_drag_drop_received": "Drag & Drop recibido ({count} elemento(s))",
+  "log_processing_assets": "Procesando {count} uasset(s)",
+  "log_assets_loaded": "Assets cargados correctamente",
+  "log_color_selected": "Color seleccionado",
+  "log_color_applied_click": "Color aplicado por clic",
+  "log_applying_changes": "Aplicando cambios...",
+  "log_changes_applied": "Cambios aplicados correctamente",
+  "log_cannot_delete_file": "No se pudo eliminar el archivo: {path}",
+  "log_theme_changed_to_light": "Tema cambiado a claro",
+  "log_theme_changed_to_dark": "Tema cambiado a oscuro",
+  "dropzone_default": "Arrastra assets o carpetas aquí",
+  "dropzone_release": "Suelta para cargar",
+  "dropzone_invalid": "Archivo no válido",
+  "log_select_row_warning": "Selecciona una fila MIN/MAX o activa Seleccionar todo.",
+  "dialog_select_folder": "Seleccionar carpeta",
+  "dialog_select_uasset": "Seleccionar uasset",
+  "choose_language": "Selecciona el idioma",
+  "language_spanish": "Español",
+  "language_english": "Inglés",
+  "file_filter_uasset": "Assets de Unreal (*.uasset)",
+  "files_loaded_count": "{count} archivos cargados",
+  "col_type": "Tipo",
+  "col_color": "Color",
+  "col_r": "R",
+  "col_g": "V",
+  "col_b": "A",
+  "color_picker_title": "Selector de color",
+  "colorpicker_ok": "Aceptar",
+  "colorpicker_cancel": "Cancelar",
+  "colorpicker_copy": "Copiar HEX",
+  "colorpicker_hex": "HEX",
+  "colorpicker_rgb": "RGB",
+  "colorpicker_hsv": "HSV",
+  "colorpicker_hsl": "HSL",
+  "colorpicker_cmyk": "CMYK",
+  "colorpicker_presets": "Presets",
+  "colorpicker_history": "Historial"
+
+
+  
+
+
+}

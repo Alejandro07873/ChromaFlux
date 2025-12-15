@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ColorPickerDialog</class>
+ <widget class="QDialog" name="ColorPickerDialog">
+  <property name="windowTitle">
+   <string>Color Picker</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="verticalLayout">
+
+   <!-- ================= ROW 1: HEX + PRESETS ================= -->
+   <item>
+    <layout class="QHBoxLayout">
+
+     <!-- HEX -->
+     <item>
+      <layout class="QHBoxLayout">
+       <item>
+        <widget class="QLabel">
+         <property name="text"><string>HEX</string></property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editHex">
+         <property name="placeholderText"><string>#00F5FF</string></property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnCopy">
+         <property name="text"><string>Copy</string></property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+
+
+
+
+     <!-- PRESETS -->
+     <item>
+      <layout class="QHBoxLayout" name="presetLayout"/>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- ================= ROW 2: WHEEL + PREVIEW ================= -->
+   <item>
+    <layout class="QHBoxLayout">
+
+     <!-- COLOR WHEEL -->
+     <item>
+      <widget class="QWidget" name="wheelPlaceholder">
+       <property name="minimumSize">
+        <size><width>200</width><height>200</height></size>
+       </property>
+       <layout class="QVBoxLayout"/>
+      </widget>
+     </item>
+
+     <!-- PREVIEW -->
+     <item>
+      <layout class="QVBoxLayout">
+       <item>
+        <widget class="QFrame" name="previewPrevious">
+         <property name="minimumHeight"><number>90</number></property>
+         <property name="styleSheet">
+          <string>background:#000;border:1px solid #333;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="previewCurrent">
+         <property name="minimumHeight"><number>90</number></property>
+         <property name="styleSheet">
+          <string>background:#000;border:1px solid #333;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- ================= ROW 3: SV PICKER + FORMATS ================= -->
+   <item>
+    <layout class="QHBoxLayout">
+
+     <!-- SV PICKER -->
+     <item>
+      <widget class="QWidget" name="svPickerPlaceholder">
+       <property name="minimumSize">
+        <size><width>220</width><height>220</height></size>
+       </property>
+       <layout class="QVBoxLayout"/>
+      </widget>
+     </item>
+
+     <!-- FORMATS -->
+     <item>
+      <widget class="QGroupBox" name="formatGroup">
+       <property name="title"><string>Formats</string></property>
+       <layout class="QFormLayout">
+        <item row="0" column="0">
+         <widget class="QLabel"><property name="text"><string>RGB</string></property></widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="editRGB"/>
+        </item>
+
+        <item row="1" column="0">
+         <widget class="QLabel"><property name="text"><string>HSV</string></property></widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="editHSV"/>
+        </item>
+
+        <item row="2" column="0">
+         <widget class="QLabel"><property name="text"><string>HSL</string></property></widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="editHSL"/>
+        </item>
+
+        <item row="3" column="0">
+         <widget class="QLabel"><property name="text"><string>CMYK</string></property></widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="editCMYK"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- ================= ROW 4: SLIDERS + HISTORY ================= -->
+   <item>
+    <layout class="QHBoxLayout">
+
+     <!-- SLIDERS -->
+     <item>
+      <layout class="QFormLayout">
+       <item row="0" column="0">
+        <widget class="QLabel"><property name="text"><string>Hue</string></property></widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSlider" name="sliderHue">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="maximum"><number>359</number></property>
+        </widget>
+       </item>
+
+       <item row="1" column="0">
+        <widget class="QLabel"><property name="text"><string>Saturation</string></property></widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSlider" name="sliderSat">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="maximum"><number>255</number></property>
+        </widget>
+       </item>
+
+       <item row="2" column="0">
+        <widget class="QLabel"><property name="text"><string>Value</string></property></widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSlider" name="sliderVal">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="maximum"><number>255</number></property>
+        </widget>
+       </item>
+
+       <item row="3" column="0">
+        <widget class="QLabel"><property name="text"><string>Alpha</string></property></widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSlider" name="sliderAlpha">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="maximum"><number>255</number></property>
+         <property name="value"><number>255</number></property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+
+     <!-- HISTORY -->
+     <item>
+      <widget class="QWidget" name="historyPlaceholder">
+       <property name="minimumWidth"><number>160</number></property>
+       <layout class="QVBoxLayout"/>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- ================= ROW 5: BUTTONS ================= -->
+   
+   <item>
+    <layout class="QHBoxLayout">
+     <item>
+      <spacer>
+       <property name="orientation"><enum>Qt::Horizontal</enum></property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text"><string>Cancel</string></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnOk">
+       <property name="text"><string>OK</string></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+</ui>

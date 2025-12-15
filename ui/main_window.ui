@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>650</height>
+   </rect>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainVertical">
+
+    <!-- ================= TOP BAR ================= -->
+    <item>
+     <layout class="QHBoxLayout" name="topBarLayout">
+
+      <item>
+       <widget class="QPushButton" name="btnSelectFolder"/>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btnSelectFiles"/>
+      </item>
+
+      <item>
+       <widget class="QLabel" name="lblFileCount"/>
+      </item>
+
+      <!-- Pick color -->
+      <item>
+       <widget class="QPushButton" name="btnPickColor"/>
+      </item>
+
+      <!-- Color preview (CUADRITO) -->
+      <item>
+       <widget class="QLabel" name="lblChosenColor">
+        <property name="minimumSize">
+         <size>
+          <width>26</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>26</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: #ffffff;
+border: 1px solid #777;
+border-radius: 3px;
+         </string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkSelectAll"/>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkMin"/>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkMax"/>
+      </item>
+
+      <item>
+       <widget class="QCheckBox" name="chkSyncMinMax"/>
+      </item>
+
+      <!-- ❤️ Support button -->
+      <item>
+       <widget class="QPushButton" name="btnSupport">
+        <property name="maximumWidth">
+         <number>32</number>
+        </property>
+        <property name="toolTip">
+         <string>Support the project</string>
+        </property>
+       </widget>
+      </item>
+
+      <!-- Settings -->
+      <item>
+       <widget class="QPushButton" name="btnSettings">
+        <property name="maximumWidth">
+         <number>32</number>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <spacer>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+
+     </layout>
+    </item>
+
+    <!-- ================= CONTENT ================= -->
+    <item>
+     <layout class="QHBoxLayout" name="contentLayout">
+
+      <!-- LEFT PANEL -->
+      <item>
+       <widget class="QWidget" name="leftPanel">
+        <property name="minimumWidth">
+         <number>220</number>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding"/>
+        </property>
+
+        <layout class="QVBoxLayout" name="leftPanelLayout">
+
+         <!-- DROP ZONE -->
+         <item>
+          <widget class="QLabel" name="dropZone">
+           <property name="minimumHeight">
+            <number>160</number>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+border: 2px dashed #666;
+color: #aaa;
+font-size: 14px;
+            </string>
+           </property>
+          </widget>
+         </item>
+
+         <!-- LOG -->
+         <item>
+          <widget class="QPlainTextEdit" name="txtLog">
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+
+        </layout>
+       </widget>
+      </item>
+
+      <!-- RIGHT PANEL -->
+      <item>
+       <layout class="QVBoxLayout" name="rightPanelLayout">
+
+        <!-- SEARCH -->
+        <item>
+         <widget class="QLineEdit" name="txtFilter"/>
+        </item>
+
+        <!-- TREE PLACEHOLDER (REEMPLAZADO EN MAIN) -->
+        <item>
+         <widget class="QTabWidget" name="tabWidget"/>
+        </item>
+
+       </layout>
+      </item>
+
+     </layout>
+    </item>
+
+<!-- ================= PROGRESS / PLACEHOLDER ================= -->
+<item>
+ <layout class="QStackedLayout" name="progressStack">
+
+  <!-- CENTER PLACEHOLDER -->
+  <item>
+   <widget class="QLabel" name="lblCenterPlaceholder">
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: #4FC3F7;
+font-size: 13px;
+font-weight: 500;
+     </string>
+    </property>
+    <property name="text">
+     <string>Made by Alejandro (aweoopoe)</string>
+    </property>
+   </widget>
+  </item>
+
+  <!-- PROGRESS BAR -->
+  <item>
+   <widget class="QProgressBar" name="progressBar"/>
+  </item>
+
+ </layout>
+</item>
+
+
+    <!-- ================= BOTTOM ================= -->
+    <item>
+     <layout class="QHBoxLayout" name="bottomLayout">
+      <item>
+       <widget class="QPushButton" name="btnApply"/>
+      </item>
+      <item>
+       <spacer>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblStatus"/>
+      </item>
+     </layout>
+    </item>
+
+   </layout>
+  </widget>
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

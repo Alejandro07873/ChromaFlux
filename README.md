@@ -9,7 +9,14 @@ and then rebuilding the original uasset files. The project is still evolving,
 so if you encounter any issues or have ideas to improve it, feel free to share.
 Contributions and feedback are always welcome.
 
----
+
+## 🖼️ Interface Preview
+
+<p align="center">
+  <img src="assets/Captura de pantalla 2025-12-15 144631.png" width="850">
+</p>
+
+
 
 ## 🧭 Steps to use the app
 

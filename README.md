@@ -13,7 +13,7 @@ Contributions and feedback are always welcome.
 ## 🖼️ Interface Preview
 
 <p align="center">
-  <img src="assets/Captura de pantalla 2025-12-15 144631.png" width="850">
+  <img src="assets/imagen_2025-12-15_145008765.png" width="850">
 </p>
 
 

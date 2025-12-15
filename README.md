@@ -12,7 +12,7 @@ Contributions and feedback are always welcome.
 
 ## 🖼️ Interface Preview
 
-<p align="center">
+<p align="Alright">
   <img src="assets/icons/imagen_2025-12-15_145008765.png" width="850">
 </p>
 

@@ -4,8 +4,7 @@ ChromaFlux is a desktop tool designed to make editing Color and ColorOverLife
 
 modules inside Unreal Engine .uasset files fast, visual and painless.
 
-The app works by converting assets to JSON, letting you modify colors safely,
-and then rebuilding the original uasset files. The project is still evolving,
+The project is still evolving,
 so if you encounter any issues or have ideas to improve it, feel free to share.
 Contributions and feedback are always welcome.
 

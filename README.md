@@ -59,7 +59,7 @@ ColorOverLife and Color modules, especially for modders and technical artists.``
 ## ⚠ Notes & Warnings
 
 - This tool modifies `.uasset` files — **always keep backups**
-- The app uses a JSON pipeline internally and cleans temporary files automatically
+- 
 - If Windows flags the app or executable, it is a false positive caused by:
   - Python-based executables
   - Custom UI frameworks (Qt / PySide)
